@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    padding-top: 66px;
+    background: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ .navbar {
+     position: fixed;
+     top: 0;
+     left: 0;
+     background-color: #3333ff;
+     color: whitesmoke;
+     padding: 2rem 3rem;
+     width: 100%;
+     z-index: 1; 
+ }
+ .navbar h1 {
+     position:relative;
+     text-shadow: 5px 5px 3px black;
+     font-size: 2rem;
+     
+      
+ } 
+    ul {
+     padding-top: 15px;
+     text-align: center;
+     color: white;
+     
+ 
+     
+
+ }
+   li {
+      cursor: pointer;
+      display: inline;
+      padding: 0 25px;
+      color: white;   
+  }
+
+  .nav-header h1 {
+      font-size: 2.5rem;
+  } 
+   .nav-links {
+       height: 0;
+
+      list-style-type: none;
+      background-color: ;
+      
+   }
+   .nav-links a {
+       color: white;
+       text-decoration: none;
+       transition: all 0.5s linear;
+       text-align: center;        
+   }
+   .nav-links a:hover {
+       color:yellow;
+   }
+    .show-link {
+        height: 50px; 
+        transition: all 0.5s linear; 
+        
+    }
+    .nav-icon {
+        position: absolute;
+        right: 15px;
+        cursor: pointer; 
+    }
+    .nav-icon:hover {
+        color: yellow;
+    }
+    .case {
+    min-height: calc(100vh - 66px);
+    background: url("./bmw.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .bgn {
+        display: inline-block;
+        background: rgba(0, 0, 0, 0.5);
+        color: whitesmoke;
+        padding: 3rem 5rem;
+        letter-spacing: 3px;
+        display: grid;
+    
+        
+        
+    }
+    .bgn div {
+        height: 5px;
+        width: 10rem;
+        background: whitesmoke;
+        margin: 1.7rem auto;
+        
+    }
+    .bgn h5 {
+        margin-bottom: 15px;
+
+    }
+     button {
+         background-color:yellow;
+         margin:0 auto ;
+         padding:8px 15px;
+         border: 3px solid yellow;
+         transition:all 0.5s linear;    
+    }
+    button:hover {
+        background: transparent;
+        color: yellow;
+        font-weight: 5px;
+    }
+    
+    
+    .home {
+        box-sizing: border-box;
+         display: grid; 
+         grid-template-columns: repeat(3, 1fr); 
+    
+        
+        
+        
+    }
+    .home-1 {
+        margin: 25px 2rem;
+        background-color: #3333ff;
+        color: white;
+        padding: 25px 35px;
+        font-size: 15px;
+        box-shadow: 12px 12px 2em 1px gray;
+        
+    }
+    .home-2 {
+        margin: 25px 2rem;
+        background-color: #3333ff;
+        color: white;
+        padding: 25px 35px;
+        font-size: 15px;
+        box-shadow: 12px 12px 2em 1px gray;
+    }
+    .home-3 {
+        margin: 25px 2rem;
+        background-color: #3333ff;
+        color: white;
+        padding: 25px 35px;
+        font-size: 15px;
+        box-shadow: 12px 12px 2em 1px gray;
+    
+    }
+
+    .text {
+        
+        
+    }
+
+    .div {
+        background-color: rgba(0, 0, 0, 0.055);
+        height: 100%;
+        width: 100%;
+    }
+
+    .container {
+        
+         display: grid;
+        grid-template-columns:repeat(3, 1fr);
+        justify-content: space-between;
+    } 
+     /* .container > div {
+        height: ;
+    
+        background-size: ;
+        background-attachment:;
+
+    } */
+     .img { 
+        margin-top:6em ;
+        box-shadow: 12px 12px 25px 1px gray; 
+        max-width: 300px; 
+        cursor: pointer;
+        transition: transform 0.3s ease-out;
+         
+    } 
+    .img:hover {
+        transform: scale(1.1);
+    }
+    
+      
+    /* .fold {
+       text-align: center;
+       margin: 50px 0  0;
+       
+    
+       
+    }
+    .fold2 {
+        width: 6rem;
+        height: 5px;
+        background-color: black;
+        margin-left: 27rem;
+        margin-top: 1.7rem;
+        
+    } */
+    .engine {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+    .moto {
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .moto:hover {
+        transform: scale(1.1);
+    }
+    .car {
+        margin: 50px auto;
+        box-shadow: 12px 12px 2rem 1px black; 
+        text-align: center; 
+        cursor: pointer;
+        
+    }
+    .car:hover {
+        transform: scale(1.1);
+
+    }
+     h3 {
+        font-weight: 3px;
+    }
+    .div {
+        width: 9rem;
+        height: 5px;
+        background-color: black;
+        margin:1.7rem auto;
+        text-align: center;
+        
+
+    }
+    .repair {
+        margin-top: 2rem;
+        
+    }
+    .repair h1 {
+        text-align: center;
+        
+    }
+    .select {
+        text-align: center;
+        margin:1.5rem auto;
+        display: flex;
+
+    }
+    .select:focus {
+        outline: none;
+    }
+
+    
+
+    
+      
+        
+    
+        
+    
+    
+    
+ 
+ 
+ 
+
+ 
+ 
